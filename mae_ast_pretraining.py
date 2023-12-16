@@ -67,7 +67,7 @@ class MAE_AST_Pretraining_Config(FairseqDataclass):
     )
 
     feature_type: Optional[str] = field(
-        default='wav',
+        default='spectrogram',
         metadata={"help": "choose from ['wav', 'spectrogram', 'fbank', 'mfcc']"}
     )
 
