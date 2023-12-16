@@ -14,7 +14,7 @@ import numpy as np
 
 from dataclasses import dataclass, field
 from fairseq.data import Dictionary
-from mae_ast.data import MAE_AST_Dataset
+#from mae_ast.data import MAE_AST_Dataset
 from fairseq.dataclass import ChoiceEnum
 from fairseq.dataclass.configs import FairseqDataclass
 from fairseq.tasks import register_task
