@@ -24,7 +24,7 @@ from fairseq.models.wav2vec.wav2vec2 import (
 #     SinusoidalPositionalEmbedding
 # )
 from fairseq.modules import GradMultiply, LayerNorm
-from mae_ast_pretraining import (
+from MAE_AST_Public.mae_ast_pretraining import (
     MAE_AST_Pretraining_Config,
     MAE_AST_Pretraining_Task,
 )
